@@ -25,7 +25,10 @@ header h1 {
     border: none;
     cursor: pointer;
     padding: 0;
-    font-size: 1em;
+    font-size: 60%;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
 }
 /* Header end */
 
@@ -97,13 +100,14 @@ header h1 {
 }
 
 .nav-menu {
+    background-color: #f77873;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
     margin: 0;
-    padding: 0;
-    font-size: 1.2em;
+    padding: 20px 20px;
+    font-size: 1.5em;
 }
 
 .nav-buscador {
@@ -118,12 +122,15 @@ header h1 {
 
 .nav-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     margin: 0;
-    padding: 0;
-    font-size: 1.2em;
+    padding: 0 10px;
+    font-size: 1.5em;
+    background-color: #f77873;
+    color: white;
+    padding: 20px 20px;
 }
 /* Navigation end */
 
